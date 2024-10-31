@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: minercode/simple_server:latest
+          image: uijin000/simple_server:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
